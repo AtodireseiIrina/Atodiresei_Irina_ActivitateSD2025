@@ -64,5 +64,6 @@ int main() {
 
 	//printf("%d", sizeof(struct Masina*));
 	//exersez functia commit
+	//push
 	return 0;
 }
