@@ -26,6 +26,8 @@ struct Elev initializare(int idElev, int nrMaterii, float* note, char* numeElev,
 	return e;
 }
 
+
+
 void afisare(struct Elev e)
 {
 
