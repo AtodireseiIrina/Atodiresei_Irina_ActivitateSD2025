@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0c7c476a-94dc-4625-9ef1-f0f87a1c4fe6}</ProjectGuid>
-    <RootNamespace>LucruInPlus</RootNamespace>
+    <ProjectGuid>{01d0e074-f31e-496d-a4a4-d40285de408b}</ProjectGuid>
+    <RootNamespace>ExSuplimentare</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Strctura_Telefon.c" />
+    <ClCompile Include="StructuraCarte.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

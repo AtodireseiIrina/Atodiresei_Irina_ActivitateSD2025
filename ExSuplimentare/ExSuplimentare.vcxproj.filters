@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.c">
+    <ClCompile Include="StructuraCarte.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
