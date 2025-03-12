@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e32176e9-350f-4190-8ab1-af0ef033bd0b}</ProjectGuid>
-    <RootNamespace>AtodireseiIrinaActivitateSD2025</RootNamespace>
+    <ProjectGuid>{cd58d4f3-3d87-4688-a41a-d27c29b22640}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,9 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Seminar01.c" />
-    <ClCompile Include="Seminar2.c" />
-    <ClCompile Include="Seminarr3.c" />
+    <ClCompile Include="Source.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
