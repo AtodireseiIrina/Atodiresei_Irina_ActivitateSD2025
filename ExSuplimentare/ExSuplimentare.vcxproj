@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1StructuraSiFunctii.c" />
+    <ClCompile Include="2Vectori.c" />
     <ClCompile Include="StructuraCarte.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
