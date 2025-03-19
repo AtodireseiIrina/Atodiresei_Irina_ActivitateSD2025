@@ -80,7 +80,7 @@
 //
 //	if (*dimensiune > 0)
 //	{
-//		(vectorNou) = (struct Masina*)malloc((*dimensiune) * sizeof(struct Masina)s);
+//		(vectorNou) = (struct Masina*)malloc((*dimensiune) * sizeof(struct Masina));
 //	}
 //	int j = 0;
 //	for (int i = 0; i < nrElemente; i++)
@@ -127,6 +127,7 @@
 //	vectorCopiat = copiazaPrimeleMasini(vector, nrElemente, nrElementeCopiate);
 //	afisareVector(vectorCopiat, nrElementeCopiate);
 //	dezalocare(&vectorCopiat, &nrElementeCopiate);
+//
 //	printf("\n\n Afisare masini cu capacitate: \n");
 //	copiazaMasiniCuCCMare(vector, nrElemente, 35, &vectorCopiat, &nrElementeCopiate);
 //	afisareVector(vectorCopiat, nrElementeCopiate);

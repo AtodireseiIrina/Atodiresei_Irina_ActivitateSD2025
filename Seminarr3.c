@@ -4,8 +4,6 @@
 //#include <string.h>
 //
 ////trebuie sa folositi fisierul masini.txt
-////sau va creati un alt fisier cu alte date
-//
 //struct StructuraMasina {
 //	int id;
 //	int nrUsi;
@@ -18,14 +16,11 @@
 ////in loc sa scriu struct StructuraMasina voi scrie Masina fiinca am definit un alias
 //
 //void afisareMasina(Masina masina) {
-//	//afiseaza toate atributele unei masini
 //	printf("%d.Masina are %d usi, un pret %6.2f si este modelul %s. Numele soferului este %s iar seria masinii este %c.\n",
 //		masina.id, masina.nrUsi, masina.pret, masina.model, masina.numeSofer, masina.serie);
 //}
 //
 //void afisareVectorMasini(Masina* masini, int nrMasini) {
-//	//afiseaza toate elemente de tip masina din vector
-//	//prin apelarea functiei afisareMasina()
 //	for (int i = 0; i < nrMasini; i++) {
 //
 //		afisareMasina(masini[i]);
@@ -33,7 +28,7 @@
 //}
 //
 //void adaugaMasinaInVector(Masina** masini, int* nrMasini, Masina masinaNoua) {
-//	Masina* aux = (Masina*)malloc(sizeof(Masina) * (*nrMasini) + 1);
+//	Masina* aux = (Masina*)malloc(sizeof(Masina) * ((*nrMasini) + 1));
 //	for (int i = 0; i < (*nrMasini); i++) {
 //		aux[i] = (*masini)[i];
 //	}
@@ -72,16 +67,13 @@
 //}
 //
 //Masina* citireVectorMasiniFisier(const char* numeFisier, int* nrMasiniCitite) {
-//	//functia primeste numele fisierului, il deschide si citeste toate masinile din fisier
-//	//prin apelul repetat al functiei citireMasinaFisier()
-//	//numarul de masini este determinat prin numarul de citiri din fisier
 //	//ATENTIE - la final inchidem fisierul/stream-ul
-//	FILE* file = fopen(numeFisier,"r"); //r-read, w-write, w+-scriere si adaugare
+//	FILE* file = fopen(numeFisier, "r"); //r-read, w-write, w+-scriere si adaugare
 //	Masina* masini = NULL;
 //
 //	do
 //	{
-//		adaugaMasinaInVector(&masini, nrMasiniCitite,citireMasinaFisier(file));
+//		adaugaMasinaInVector(&masini, nrMasiniCitite, citireMasinaFisier(file));
 //
 //	} while (!feof(file));
 //	fclose(file);
@@ -100,10 +92,10 @@
 //	free(*vector);
 //	*vector = NULL;
 //	*nrMasini = 0;
-//	
+//
 //}
 ////functie care sa faca pretul mediu al masinilor cu 3 usi
-//float mediePretDupaNrUsi(Masina* vector,int nrMasini,int nrUsi) {
+//float mediePretDupaNrUsi(Masina* vector, int nrMasini, int nrUsi) {
 //	float suma = 0;
 //	int index = 0;
 //	for (int i = 0; i < nrMasini; i++) {
@@ -124,8 +116,8 @@
 //	int nrMasini = 0;
 //	masini = citireVectorMasiniFisier("masini.txt", &nrMasini);
 //	afisareVectorMasini(masini, nrMasini);
-//	float medie = mediePretDupaNrUsi(masini, nrMasini,5);
-//	printf("media masinilor este:\n",medie);
+//	float medie = mediePretDupaNrUsi(masini, nrMasini, 5);
+//	printf("media masinilor este:\n", medie);
 //	dezalocareVectorMasini(&masini, &nrMasini);
 //	return 0;
 //}
