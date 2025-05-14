@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="alta_forma_seminar1.c" />
     <ClCompile Include="Seminar8.c" />
+    <ClCompile Include="Seminar9.c" />
+    <ClCompile Include="Task1.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
