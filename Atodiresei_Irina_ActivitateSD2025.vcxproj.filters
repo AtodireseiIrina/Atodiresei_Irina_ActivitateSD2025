@@ -39,5 +39,8 @@
     <ClCompile Include="sm11.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ABC_Suplimentar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
