@@ -42,5 +42,8 @@
     <ClCompile Include="ABC_Suplimentar.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AVLsuplimentar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
